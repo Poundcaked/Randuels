@@ -1,0 +1,14 @@
+name: RanDuels
+version: '1.0-SNAPSHOT'
+main: me.poundcake.randuels.RanDuels
+api-version: 1.17
+authors: [ Poundcake ]
+description: Duel your friends with random items every time
+website: https://youtube.com/poundcakes
+commands:
+  randuel:
+    description: Recieve 5 items for a RanDuel
+    usage: /<command>
+  raninfo:
+    description: Provides info about plugin
+    usage: /<command>
