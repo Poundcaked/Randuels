@@ -14,6 +14,8 @@ public class Info implements CommandExecutor {
             Player player = (Player) sender;
 
             player.sendMessage(ChatColor.YELLOW+"This plugin was made by Poundcake. https://youtube.com/Poundcakes");
+            player.sendMessage(ChatColor.GREEN+"View the source code on Github! https://github.com/Poundcaked/RanDuels");
+            player.sendMessage(ChatColor.RED+"This was my first plugin ever! Created on 11/6/21");
 
         }else{
             System.out.println("Info command was not run by player.");
